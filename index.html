@@ -2,7 +2,6 @@
     <head>
         <link rel="stylesheet" href="styles.css">
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-
     </head>
     <body>
         <header>
@@ -19,10 +18,10 @@
         </header>
         <section id="about-section">
             <div class="headshot">
-                <img src="headshot.png" alt="Photo of me">
+                <img src="images/headshot.png" alt="Photo of me">
             </div>
             <div class="bio">
-                    <h2>Hi, I'm <span id="name">Stavya</span></h2>
+                    <h2><span id="Intro"></span></h2>
                     <p>I’m Stavya, an undergraduate student from SUTD studying Computer Science & Design.
                     I enjoy working on full-stack software development projects and am passionate about learning new technologies, especially in AI.</p>
                     <button>Download Resume</button>
@@ -30,38 +29,64 @@
         </section>
         <section id="projects-section">
             <h1>Projects</h1>
+            <h2>Full-stack development and C programming </h2>
+            <div class = "project-wrapper">
+                <a class="project-card" href="https://github.com/beepobb/hotel-booking-system">
+                    <h3>Hotel Booking System</h3>
+                    <img src="images/hotel_booking_img.jpg" alt="Photo here"> 
+                    <p class="desc">Web application, integrated with Ascenda's hotel API and with full unit and integration testing</p>
+                    <p><b>Tech Stack: React, Express.js, SQL</b></p>
+                </a>
+                <a class="project-card">
+                    <h3>Personal Website</h3>
+                    <img src="images/personalwebsite.jpg" alt="Photo here">
+                    <p class="desc">This is the website you are currently looking at!</p>
+                    <p><b>Tech Stack: HTML, CSS, JavaScript</b></p>
+
+                </a>
+                <a class="project-card">
+                    <h3>Proj name</h3>
+                    <p class="desc">Proj desc</p>
+                </a>
+                <a class="project-card">
+                    <h3>Proj name</h3>
+                    <p class="desc">Proj desc</p>
+                </a>
+            </div>
+            <h2 id="Machine-Learning">Machine Learning</h2>
             <div class = "project-wrapper">
                 <a class="project-card">
                     <h3>Proj name</h3>
-                    <p>Proj desc</p>
+                    <p class="desc">Proj desc</p>
                 </a>
                 <a class="project-card">
                     <h3>Proj name</h3>
-                    <p>Proj desc</p>
-                </a>
-                <a class="project-card">
-                    <h3>Proj name</h3>
-                    <p>Proj desc</p>
-                </a>
-                <a class="project-card">
-                    <h3>Proj name</h3>
-                    <p>Proj desc</p>
-                </a>
-                <a class="project-card">
-                    <h3>Proj name</h3>
-                    <p>Proj desc</p>
+                    <p class="desc">Proj desc</p>
                 </a>
             </div>
         </section>
         <section id="experience-section">
-            <div> Test</div>
-
+            <h1>Work Experience</h1>
+            <div class="work-card">
+                <h3>Job Title 1</h3>
+                <p>Company: Company Name</p>
+                <p>Description of the job role, responsibilities, and achievements.</p>
+            </div>
+            <div class="work-card">
+                <h3>Job Title 2</h3>
+                <p>Company: Company Name</p>
+                <p>Description of the job role, responsibilities, and achievements.</p>
+            </div>
+            <!-- Add more work-card divs as needed -->
         </section>
+        
         <section id="contact-section">
             <div> Test</div>
 
         </section>
 
-        
+
+        <script src="myscript.js"></script>
+        <noscript>Sorry, your browser does not support JavaScript</noscript>
     </body>
 </html>
