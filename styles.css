@@ -225,12 +225,17 @@ p{
 }
 
 
+/* Experience Section */
 
 #experience-section p{
-    border: 1px solid black;
+    margin: auto;
 }
 
+/* Contact Section */
 
+#contact-section p{
+    margin: auto;
+}
 
 
 
